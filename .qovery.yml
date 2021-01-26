@@ -3,6 +3,10 @@ application:
   name: "blog-strapi"
   project: "BlogStrapi"
   organization: "QoveryCommunity"
+databases:
+- type: postgresql
+  name: psql
+  version: 12
 routers:
 - name: "main-blog-strapi"
   routes:
